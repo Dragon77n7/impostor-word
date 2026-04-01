@@ -4,7 +4,7 @@ import Lobby from './screens/Lobby';
 import Game from './screens/Game';
 import Results from './screens/Results';
 
-const socket = io(window.location.hostname + ':3001');
+const socket = io('https://impostor-word-production.up.railway.app');
 
 const STYLES = `
   @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap');
